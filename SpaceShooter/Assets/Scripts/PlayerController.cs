@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     public AudioClip musicClipOne;
 
 
-    private void Start()
+    void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
